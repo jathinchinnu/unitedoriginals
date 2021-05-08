@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css1.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>UnitedOriginals</title>
+</head>
+<body>
+<section id="banner">
+  <img src="logo 2.png" class="logo">
+  <div class="banner-text">
+    <h1>United Originals</h1>
+    <p>explore your devotional content here</p>
+    <div class="banner-btn">
+      <a href="#"><span></span>explore</a>
+      <a href="#"><span></span>Subscription</a>
+    </div>
+  </div>
+</section>
+<div id="sidenav">
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      <li><a href="#">FEEDBACK</a></li>
+    </ul>
+  </nav>
+</div>
+<div id="menubtn">
+  <img src="menu.png" id="menu">
+  <script>
+    var menubtn=document.getElementById("menubtn")
+    var menu=document.getElementById("menu")
+    var sidenav=document.getElementById("sidenav")
+    sidenav.style.right="-250px"
+    menubtn.onclick=function()
+    {
+      if(sidenav.style.right=="-250px"){
+        sidenav.style.right="0";
+        menu.src="close.png";
+      }
+      else{
+        sidenav.style.right="-250px"
+        menu.src="menu.png";
+      }
+    }
+  </script>
+  <!---->
+  <section>
+
+  </section>
+</div>
+</body>
+</html>
